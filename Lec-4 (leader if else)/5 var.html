@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        let a = parseInt(prompt("ENTER NUMBER OF A:-"));
+        let b = parseInt(prompt("ENTER NUMBER OF B:-"));
+        let c = parseInt(prompt("ENTER NUMBER OF C:-"));
+        let d = parseInt(prompt("ENTER NUMBER OF D:-"));
+        let e = parseInt(prompt("ENTER NUMBER OF E:-"));
+
+        if (a>b && a>c && a>d && a>e) {
+            document.write(`<h1>A IS BIG</h1>`);
+        }
+        else if(b>a && b>c && b>d && b>e){
+            document.write(`<h1>B IS BIG</h1>`);
+        }
+        else if(c>a && c>b && c>d && c>e){
+            document.write(`<h1>C IS BIG</h1>`);
+        }
+        else if(d>a && d>b && d>c && c>e){
+            document.write(`<h1>D IS BIG</h1>`);
+        }
+        else if(e>a && e>b && e>c && e>d){
+            document.write(`<h1>E IS BIG</h1>`);
+        }
+        else{
+            document.write(`<h1>ALL ARE SAME</h1>`);
+        }
+    </script>
+</body>
+</html>

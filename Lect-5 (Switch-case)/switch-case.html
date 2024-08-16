@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>switch-case</title>
+</head>
+<body>
+    <script>
+        let a = parseInt(prompt("ENTER THE NUMBER OF A:-"));
+        let b = parseInt(prompt("ENTER THE NUMBER OF B:-"));
+        let choice = parseInt(prompt("ENTER YOUR CHOICE"));
+ 
+        switch (choice) {
+            case 1:
+                document.write(`${a+b}`);
+                break;
+            case 2:
+                 document.write(`${a-b}`);
+                break;
+            case 3 :
+                    document.write(`${a*b}`);
+                break;
+            case 4:
+                    document.write(`${a/b}`);
+                break;
+            default:
+                document.write(`PLEASE ENTER VALID CHOICE`);
+        }
+    </script>
+</body>
+</html>

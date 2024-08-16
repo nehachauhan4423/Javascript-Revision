@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fibonaccy series</title>
+</head>
+<body>
+    <script type="text/javascript">
+        let number1=0 , number2=1;
+        document.write(`<h3>${number1}</h3>`);
+        document.write(`<h3>${number2}</h3>`);
+        for(let i=3;i<=10;i++){
+            let number3 = number1 +number2;
+            document.write(`<h3>${number3}</h3>`);
+            number1 = number2;
+            number2 = number3;
+        }
+    </script>
+</body>
+</html>
